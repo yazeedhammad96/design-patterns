@@ -2,46 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/definition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/AbstractFactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/impl/ChicagoPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/impl/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/impl/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/general-abstract-factory-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Clam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/FreshClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/MarinaraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/ReggianoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/SlicedPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Veggies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/Garlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/RedPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/pizza-abstract-factory-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/product/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/product/impl/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/product/impl/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/definition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/FactoryMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/creator/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/creator/impl/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/creator/impl/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/general-factortmethod-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/pizza-factory-method-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/ChicagoStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/NYStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/client/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/client/impl/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/client/impl/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/duck-strategy-diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/UML class.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/chracter-strategy-diagram.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/strategy" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -89,27 +62,28 @@
       <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategy.behavior.impl" />
+      <recent name="strategy.behavior" />
       <recent name="factory.abstractfactory.model" />
       <recent name="factory.abstractfactory.creator.impl" />
       <recent name="observer.model" />
-      <recent name="observer.observer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategy.client.impl" />
+      <recent name="strategy.behavior.impl" />
       <recent name="factory.abstractfactory.creator.impl" />
       <recent name="factory.abstractfactory.product.impl" />
       <recent name="factory.factorymethod.creator.impl" />
-      <recent name="factory.factorymethod.product.impl" />
-      <recent name="decorator.beverages.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/strategy" />
       <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
       <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory" />
       <recent name="$PROJECT_DIR$/src/main/java/factory/factorymethod" />
       <recent name="$PROJECT_DIR$/src/main/java/decorator" />
-      <recent name="$PROJECT_DIR$/src/main/java/observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryDemo">
+  <component name="RunManager" selected="Application.StrategyDemo">
     <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory.abstractfactory.AbstractFactoryDemo" />
       <module name="design-patterns" />
@@ -162,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.ObserverDemo" />
+    <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.StrategyDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyDemo" />
         <item itemvalue="Application.AbstractFactoryDemo" />
         <item itemvalue="Application.FactoryMethodDemo" />
         <item itemvalue="Application.DecoratorDemo" />
         <item itemvalue="Application.ObserverDemo (1)" />
-        <item itemvalue="Application.ObserverDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608719413482</updated>
-      <workItem from="1608719422095" duration="15316000" />
+      <workItem from="1608719422095" duration="16850000" />
     </task>
     <servers />
   </component>
@@ -207,30 +181,30 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1704" y="385" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1608719441428" />
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1608910959721">
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1608917455678">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608910959721" />
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608917455678" />
     <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608911074430">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1608911074430" />
-    <state width="912" height="423" key="GridCell.Tab.0.bottom" timestamp="1608912831895">
+    <state width="912" height="423" key="GridCell.Tab.0.bottom" timestamp="1608916296948">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831895" />
-    <state width="912" height="423" key="GridCell.Tab.0.center" timestamp="1608912831893">
+    <state width="912" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296948" />
+    <state width="912" height="423" key="GridCell.Tab.0.center" timestamp="1608916296945">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831893" />
-    <state width="912" height="423" key="GridCell.Tab.0.left" timestamp="1608912831892">
+    <state width="912" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296945" />
+    <state width="912" height="423" key="GridCell.Tab.0.left" timestamp="1608916296944">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831892" />
-    <state width="912" height="423" key="GridCell.Tab.0.right" timestamp="1608912831894">
+    <state width="912" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296944" />
+    <state width="912" height="423" key="GridCell.Tab.0.right" timestamp="1608916296947">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831894" />
+    <state width="912" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296947" />
     <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1608910302993">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
