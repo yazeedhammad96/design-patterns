@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="" />
+    <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/definition.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/AbstractFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/PizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/impl/ChicagoPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/impl/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/creator/impl/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/general-abstract-factory-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Clam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/FreshClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/MarinaraSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Pepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/ReggianoCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/SlicedPepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/ThinCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/Veggies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/Garlic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/Onion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model/veggies/RedPepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/pizza-abstract-factory-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/product/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/product/impl/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/abstractfactory/product/impl/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/definition.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/FactoryMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/creator/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/creator/impl/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/creator/impl/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/general-factortmethod-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/pizza-factory-method-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/ChicagoStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/factorymethod/product/impl/NYStyleVeggiePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +56,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +67,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1m3PgdtxWkhf0pQDG9oMXJgESiN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/decorator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -44,27 +89,59 @@
       <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="factory.abstractfactory.model" />
+      <recent name="factory.abstractfactory.creator.impl" />
       <recent name="observer.model" />
       <recent name="observer.observer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factory.abstractfactory.creator.impl" />
+      <recent name="factory.abstractfactory.product.impl" />
+      <recent name="factory.factorymethod.creator.impl" />
+      <recent name="factory.factorymethod.product.impl" />
       <recent name="decorator.beverages.impl" />
-      <recent name="decorator.condimentdecorators.impl" />
-      <recent name="observer.builtin.display" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
+      <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory" />
+      <recent name="$PROJECT_DIR$/src/main/java/factory/factorymethod" />
       <recent name="$PROJECT_DIR$/src/main/java/decorator" />
       <recent name="$PROJECT_DIR$/src/main/java/observer" />
-      <recent name="$PROJECT_DIR$/src/main/java/strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorDemo">
+  <component name="RunManager" selected="Application.AbstractFactoryDemo">
+    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.abstractfactory.AbstractFactoryDemo" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="decorator.DecoratorDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.factorymethod.FactoryMethodDemo" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryDemo" />
+        <item itemvalue="Application.FactoryMethodDemo" />
         <item itemvalue="Application.DecoratorDemo" />
         <item itemvalue="Application.ObserverDemo (1)" />
         <item itemvalue="Application.ObserverDemo" />
@@ -116,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608719413482</updated>
-      <workItem from="1608719422095" duration="7161000" />
+      <workItem from="1608719422095" duration="15316000" />
     </task>
     <servers />
   </component>
@@ -128,42 +207,54 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1704" y="385" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1608719441428" />
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1608740309803">
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1608910959721">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608740309803" />
-    <state width="932" height="423" key="GridCell.Tab.0.bottom" timestamp="1608741038735">
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608910959721" />
+    <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608911074430">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="932" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608741038735" />
-    <state width="932" height="423" key="GridCell.Tab.0.center" timestamp="1608741038732">
+    <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1608911074430" />
+    <state width="912" height="423" key="GridCell.Tab.0.bottom" timestamp="1608912831895">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="932" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608741038732" />
-    <state width="932" height="423" key="GridCell.Tab.0.left" timestamp="1608741038731">
+    <state width="912" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831895" />
+    <state width="912" height="423" key="GridCell.Tab.0.center" timestamp="1608912831893">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="932" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608741038731" />
-    <state width="932" height="423" key="GridCell.Tab.0.right" timestamp="1608741038733">
+    <state width="912" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831893" />
+    <state width="912" height="423" key="GridCell.Tab.0.left" timestamp="1608912831892">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="932" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608741038733" />
-    <state width="1130" height="519" key="GridCell.Tab.1.bottom" timestamp="1608729475876">
+    <state width="912" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831892" />
+    <state width="912" height="423" key="GridCell.Tab.0.right" timestamp="1608912831894">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1130" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608729475876" />
-    <state width="1130" height="519" key="GridCell.Tab.1.center" timestamp="1608729475874">
+    <state width="912" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608912831894" />
+    <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1608910302993">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1130" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608729475874" />
-    <state width="1130" height="519" key="GridCell.Tab.1.left" timestamp="1608729475873">
+    <state width="912" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302993" />
+    <state width="912" height="519" key="GridCell.Tab.1.center" timestamp="1608910302991">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1130" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608729475873" />
-    <state width="1130" height="519" key="GridCell.Tab.1.right" timestamp="1608729475875">
+    <state width="912" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302991" />
+    <state width="912" height="519" key="GridCell.Tab.1.left" timestamp="1608910302990">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1130" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608729475875" />
+    <state width="912" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302990" />
+    <state width="912" height="519" key="GridCell.Tab.1.right" timestamp="1608910302992">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="912" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302992" />
+    <state x="1621" y="382" key="Maven.ArtifactSearchDialog" timestamp="1608911236849">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1621" y="382" key="Maven.ArtifactSearchDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1608911236849" />
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608815181315">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608815181315" />
     <state x="1739" y="477" width="667" height="486" key="find.popup" timestamp="1608741809404">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
