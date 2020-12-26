@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/behavior/impl/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/client/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/client/impl/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/client/impl/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/duck-strategy-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/antipattern/ReflectionSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/antipattern/SingletonSerializedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/defintion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/enums/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/enums/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/UML class.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/chracter-strategy-diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +48,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/strategy" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
   </component>
   <component name="RecentsManager">
@@ -62,11 +57,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="singelton.enums" />
       <recent name="strategy.behavior.impl" />
       <recent name="strategy.behavior" />
       <recent name="factory.abstractfactory.model" />
       <recent name="factory.abstractfactory.creator.impl" />
-      <recent name="observer.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="strategy.client.impl" />
@@ -83,26 +78,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrategyDemo">
+  <component name="RunManager" selected="Application.SingletonSerializedTest">
     <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory.abstractfactory.AbstractFactoryDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="factory.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.DecoratorDemo" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.builtin.ObserverDemo" />
+    <configuration name="ReflectionSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singelton.antipattern.ReflectionSingletonTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.builtin.*" />
+          <option name="PATTERN" value="singelton.antipattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonSerializedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singelton.antipattern.SingletonSerializedTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singelton.antipattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonSerializedTest" />
+        <item itemvalue="Application.ReflectionSingletonTest" />
         <item itemvalue="Application.StrategyDemo" />
         <item itemvalue="Application.AbstractFactoryDemo" />
         <item itemvalue="Application.FactoryMethodDemo" />
-        <item itemvalue="Application.DecoratorDemo" />
-        <item itemvalue="Application.ObserverDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608719413482</updated>
-      <workItem from="1608719422095" duration="16850000" />
+      <workItem from="1608719422095" duration="19414000" />
     </task>
     <servers />
   </component>
@@ -177,10 +172,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1704" y="385" key="#Project_Structure" timestamp="1608719441428">
+    <state x="1704" y="385" key="#Project_Structure" timestamp="1608987133529">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1704" y="385" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1608719441428" />
+    <state x="1704" y="385" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1608987133529" />
     <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1608917455678">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -189,22 +184,22 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1608911074430" />
-    <state width="912" height="423" key="GridCell.Tab.0.bottom" timestamp="1608916296948">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1608986785011">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296948" />
-    <state width="912" height="423" key="GridCell.Tab.0.center" timestamp="1608916296945">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785011" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1608986785008">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296945" />
-    <state width="912" height="423" key="GridCell.Tab.0.left" timestamp="1608916296944">
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785008" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1608986785007">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296944" />
-    <state width="912" height="423" key="GridCell.Tab.0.right" timestamp="1608916296947">
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785007" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1608986785010">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608916296947" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785010" />
     <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1608910302993">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

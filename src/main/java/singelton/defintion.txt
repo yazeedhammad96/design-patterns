@@ -1,0 +1,17 @@
+The Singleton Pattern ensures a class has only one instance, and provides a global
+point of access to it.
+
+Why it's considered as an anti-pattern?
+
+  - Problems With Serialization and Deserialization: in order to serialize the above singleton classes, we must implement those classes with a Serializable interface. But doing that is not enough.
+          When deserializing a class, new instances are created. Now it doesn't matter the constructor is private or not. Now there can be more than one instance of the same singleton class inside the JVM, violating the singleton property.
+
+          Solution: The solution is that we have to implement the readResolve method, which is called when preparing the deserialized object before returning it to the caller.
+
+Why Enum singleton are serialization safe?
+      Serialization treats enums specially. Basically, it stores only a reference to its class and the name of the constant. Upon deserialization, this information is used to lookup the existing runtime object of the enum type.
+
+      Thus, if you deserialize the enum constant within the same runtime, you will get the same runtime instance you have serialized.
+
+      However, when deserializing in another JVM, the hashcode might be different. But having the same hashcode is not a required criteria for singletons.
+      The important point is to never have another instance of the class and this is guaranteed as the serialization implementation will never create an instance of an enum type but only lookup existing constants.
