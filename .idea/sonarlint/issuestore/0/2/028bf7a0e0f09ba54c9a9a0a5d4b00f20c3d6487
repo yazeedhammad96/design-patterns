@@ -1,0 +1,6 @@
+
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ëÉÙ8×ïğıè.
+S
+java:S1481"6Remove this unused "statisticsDisplay" local variable.(Ä”©É8¤Ùıè.
+b
+java:S1854"ERemove this useless assignment to local variable "statisticsDisplay".(Ä”©É8¤Ùıè.

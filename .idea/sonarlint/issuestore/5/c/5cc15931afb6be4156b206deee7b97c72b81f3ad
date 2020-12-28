@@ -1,0 +1,10 @@
+
+N
+java:S1481"1Remove this unused "chicagoPizza" local variable.(±Šğı8¿ù•Ôé.
+]
+java:S1854";Remove this useless assignment to local variable "nyPizza".(¬Äïéÿÿÿÿÿ8¿ƒ”Ôé.
+]
+java:S1854"@Remove this useless assignment to local variable "chicagoPizza".(±Šğı8¿ƒ”Ôé.
+N
+java:S1481",Remove this unused "nyPizza" local variable.(¬Äïéÿÿÿÿÿ8¿ù•Ôé.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ï®Í‚úÿÿÿÿ8ÒÁ—Ôé.

@@ -1,0 +1,9 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(γχµγϋÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ΧΕΉ
+e
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(•ΖΔ‹
+k
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ίζ€ψÿÿÿÿ
+“
+java:S1130"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ήÒ‡γόÿÿÿÿ

@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/antipattern/ReflectionSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/antipattern/SingletonSerializedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/defintion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/enums/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singelton/enums/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adaptee/RoundPeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adaptee/SquarePeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adapters/SquarePegAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/client/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/defintion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/general-adapter-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/target/RoundHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/AudioMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/BitrateReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/MPEG4CompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/OggCompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/VideoConversionFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/defention.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/general-facde-diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+    </list>
+    <list id="f35aa123-a57c-489a-b75c-43b8f5d4cac1" name="NonoChangelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +59,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/strategy" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/command/command" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/facade" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="singelton.enums" />
       <recent name="strategy.behavior.impl" />
@@ -63,28 +75,31 @@
       <recent name="factory.abstractfactory.model" />
       <recent name="factory.abstractfactory.creator.impl" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/facade" />
+      <recent name="$PROJECT_DIR$/src/main/java/adapter" />
+      <recent name="$PROJECT_DIR$/src/main/java/command" />
+      <recent name="$PROJECT_DIR$/src/main/java/strategy" />
+      <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="command.commands.impl" />
+      <recent name="command.reveiver" />
       <recent name="strategy.client.impl" />
       <recent name="strategy.behavior.impl" />
       <recent name="factory.abstractfactory.creator.impl" />
-      <recent name="factory.abstractfactory.product.impl" />
-      <recent name="factory.factorymethod.creator.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/strategy" />
-      <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
-      <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory" />
-      <recent name="$PROJECT_DIR$/src/main/java/factory/factorymethod" />
-      <recent name="$PROJECT_DIR$/src/main/java/decorator" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonSerializedTest">
-    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.abstractfactory.AbstractFactoryDemo" />
+  <component name="RunManager" selected="Application.Demo (1)">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facade.Demo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.abstractfactory.*" />
+          <option name="PATTERN" value="facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.factorymethod.FactoryMethodDemo" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.client.Demo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.factorymethod.*" />
+          <option name="PATTERN" value="adapter.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singelton.antipattern.ReflectionSingletonTest" />
+    <configuration name="ReflectionSingletonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singelton.enums.ReflectionSingletonTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singelton.antipattern.*" />
+          <option name="PATTERN" value="singelton.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.client.RemoteLoader" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="command.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,26 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategy.StrategyDemo" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.RemoteLoader" />
+        <item itemvalue="Application.ReflectionSingletonTest (1)" />
         <item itemvalue="Application.SingletonSerializedTest" />
-        <item itemvalue="Application.ReflectionSingletonTest" />
-        <item itemvalue="Application.StrategyDemo" />
-        <item itemvalue="Application.AbstractFactoryDemo" />
-        <item itemvalue="Application.FactoryMethodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,11 +175,16 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="" />
+      <changelist id="f35aa123-a57c-489a-b75c-43b8f5d4cac1" name="NonoChangelist" comment="" />
       <created>1608719413482</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608719413482</updated>
-      <workItem from="1608719422095" duration="19414000" />
+      <workItem from="1608719422095" duration="21892000" />
+      <workItem from="1609081970943" duration="2130000" />
+      <workItem from="1609143943637" duration="4735000" />
+      <workItem from="1609167176026" duration="232000" />
+      <workItem from="1609167483938" duration="879000" />
     </task>
     <servers />
   </component>
@@ -176,54 +196,74 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1704" y="385" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1608987133529" />
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1608917455678">
+    <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608987190618">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608917455678" />
-    <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608911074430">
+    <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608987190618" />
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609151004701">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1678" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1608911074430" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1608986785011">
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609151004701" />
+    <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609166959038">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785011" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1608986785008">
+    <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609166959038" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609167405985">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785008" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1608986785007">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405985" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609167405982">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785007" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1608986785010">
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405982" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609167405981">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608986785010" />
-    <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1608910302993">
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405981" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609167405984">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302993" />
-    <state width="912" height="519" key="GridCell.Tab.1.center" timestamp="1608910302991">
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405984" />
+    <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1609081940749">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302991" />
-    <state width="912" height="519" key="GridCell.Tab.1.left" timestamp="1608910302990">
+    <state width="912" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940749" />
+    <state width="912" height="519" key="GridCell.Tab.1.center" timestamp="1609081940748">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302990" />
-    <state width="912" height="519" key="GridCell.Tab.1.right" timestamp="1608910302992">
+    <state width="912" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940748" />
+    <state width="912" height="519" key="GridCell.Tab.1.left" timestamp="1609081940746">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1608910302992" />
+    <state width="912" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940746" />
+    <state width="912" height="519" key="GridCell.Tab.1.right" timestamp="1609081940749">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="912" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940749" />
     <state x="1621" y="382" key="Maven.ArtifactSearchDialog" timestamp="1608911236849">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1621" y="382" key="Maven.ArtifactSearchDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1608911236849" />
-    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608815181315">
+    <state x="1032" y="438" key="RollbackChangesDialog" timestamp="1609146746631">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608815181315" />
+    <state x="1032" y="438" key="RollbackChangesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609146746631" />
+    <state x="1132" y="643" key="VCS.ChangelistChooser" timestamp="1609146799802">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1132" y="643" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609146799802" />
+    <state x="1162" y="644" key="VCS.EditChangelistDialog" timestamp="1609146774055">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1162" y="644" key="VCS.EditChangelistDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609146774055" />
+    <state x="1075" y="505" key="chooseDestDirectoryDialog" timestamp="1609081678837">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1075" y="505" key="chooseDestDirectoryDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609081678837" />
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609172895402">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609172895402" />
     <state x="1739" y="477" width="667" height="486" key="find.popup" timestamp="1608741809404">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
