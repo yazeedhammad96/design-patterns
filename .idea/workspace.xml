@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adaptee/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adaptee/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adapters/SquarePegAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/client/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/defintion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/general-adapter-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/target/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/AudioMixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/BitrateReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/CodecFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/MPEG4CompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/OggCompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/VideoConversionFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/VideoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/defention.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/general-facde-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/beverage-template-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/client/TemplateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/concrete/Coffe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/concrete/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/defintion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/general-template-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/templates/CaffieneBeverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="f35aa123-a57c-489a-b75c-43b8f5d4cac1" name="NonoChangelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list id="f35aa123-a57c-489a-b75c-43b8f5d4cac1" name="NonoChangelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +49,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/command/command" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/facade" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/template" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,24 +64,24 @@
       <recent name="factory.abstractfactory.creator.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/template" />
       <recent name="$PROJECT_DIR$/src/main/java/facade" />
       <recent name="$PROJECT_DIR$/src/main/java/adapter" />
       <recent name="$PROJECT_DIR$/src/main/java/command" />
       <recent name="$PROJECT_DIR$/src/main/java/strategy" />
-      <recent name="$PROJECT_DIR$/src/main/java/factory/abstractfactory/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="template" />
       <recent name="command.commands.impl" />
       <recent name="command.reveiver" />
       <recent name="strategy.client.impl" />
       <recent name="strategy.behavior.impl" />
-      <recent name="factory.abstractfactory.creator.impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo (1)">
+  <component name="RunManager" selected="Application.TemplateDemo">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facade.Demo" />
       <module name="design-patterns" />
@@ -146,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonSerializedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singelton.antipattern.SingletonSerializedTest" />
+    <configuration name="TemplateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template.client.TemplateDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singelton.antipattern.*" />
+          <option name="PATTERN" value="template.templates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateDemo" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.ReflectionSingletonTest (1)" />
-        <item itemvalue="Application.SingletonSerializedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +172,7 @@
       <workItem from="1609081970943" duration="2130000" />
       <workItem from="1609143943637" duration="4735000" />
       <workItem from="1609167176026" duration="232000" />
-      <workItem from="1609167483938" duration="879000" />
+      <workItem from="1609167483938" duration="2227000" />
     </task>
     <servers />
   </component>
@@ -200,30 +188,30 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608987190618" />
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609151004701">
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609249780834">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609151004701" />
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609249780834" />
     <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609166959038">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609166959038" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609167405985">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609250366914">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405985" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609167405982">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609250366914" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609250366912">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405982" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609167405981">
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609250366912" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609250366910">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405981" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609167405984">
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609250366910" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609250366913">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609167405984" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609250366913" />
     <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1609081940749">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
