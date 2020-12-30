@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/IteratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/aggregate/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/aggregate/impl/DinerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/aggregate/impl/PancakeHouseMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/client/Waitress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/defintion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/general-iterator-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/iterators/DinerMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/menu-iterator-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/MenuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/client/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/component/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/composites/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/defintion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/general-composite-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/leaf/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/menucomponent-composite-diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/template/templates/CaffieneBeverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/template/templates/CaffieneBeverage.class" afterDir="false" />
     </list>
     <list id="f35aa123-a57c-489a-b75c-43b8f5d4cac1" name="NonoChangelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,26 +50,22 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/command/command" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/iterator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/composite" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="aws" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="singelton.enums" />
-      <recent name="strategy.behavior.impl" />
-      <recent name="strategy.behavior" />
-      <recent name="factory.abstractfactory.model" />
-      <recent name="factory.abstractfactory.creator.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/composite" />
       <recent name="$PROJECT_DIR$/src/main/java/iterator" />
       <recent name="$PROJECT_DIR$/src/main/java/template" />
       <recent name="$PROJECT_DIR$/src/main/java/facade" />
       <recent name="$PROJECT_DIR$/src/main/java/adapter" />
-      <recent name="$PROJECT_DIR$/src/main/java/command" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="iterator.aggregate.impl" />
@@ -80,11 +74,15 @@
       <recent name="command.reveiver" />
       <recent name="strategy.client.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="singelton.enums" />
+      <recent name="strategy.behavior.impl" />
+      <recent name="strategy.behavior" />
+      <recent name="factory.abstractfactory.model" />
+      <recent name="factory.abstractfactory.creator.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorDemo">
+  <component name="RunManager" selected="Application.MenuDemo">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facade.Demo" />
       <module name="design-patterns" />
@@ -124,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.client.RemoteLoader" />
+    <configuration name="MenuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.MenuDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.client.*" />
+          <option name="PATTERN" value="composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuDemo" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.TemplateDemo" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.RemoteLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +174,7 @@
       <workItem from="1609143943637" duration="4735000" />
       <workItem from="1609167176026" duration="232000" />
       <workItem from="1609167483938" duration="3887000" />
-      <workItem from="1609316252340" duration="410000" />
+      <workItem from="1609316252340" duration="6181000" />
     </task>
     <servers />
   </component>
@@ -188,50 +186,54 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1704" y="385" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1608987133529" />
-    <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608987190618">
+    <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609321647868">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1608987190618" />
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609262919393">
+    <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609321647868" />
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609325972885">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609262919393" />
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609325972885" />
     <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609166959038">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609166959038" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609263476336">
+    <state width="444" height="466" key="DebuggerActiveHint" timestamp="1609336081128">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609263476336" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609263476328">
+    <state width="444" height="466" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1609336081128" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609336426100">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609263476328" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609263476323">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426100" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609336426097">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609263476323" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609263476334">
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426097" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609336426096">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609263476334" />
-    <state width="912" height="519" key="GridCell.Tab.1.bottom" timestamp="1609081940749">
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426096" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609336426099">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940749" />
-    <state width="912" height="519" key="GridCell.Tab.1.center" timestamp="1609081940748">
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426099" />
+    <state width="2518" height="519" key="GridCell.Tab.1.bottom" timestamp="1609336195521">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940748" />
-    <state width="912" height="519" key="GridCell.Tab.1.left" timestamp="1609081940746">
+    <state width="2518" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609336195521" />
+    <state width="2518" height="519" key="GridCell.Tab.1.center" timestamp="1609336195519">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940746" />
-    <state width="912" height="519" key="GridCell.Tab.1.right" timestamp="1609081940749">
+    <state width="2518" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609336195519" />
+    <state width="2518" height="519" key="GridCell.Tab.1.left" timestamp="1609336195518">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="912" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609081940749" />
+    <state width="2518" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609336195518" />
+    <state width="2518" height="519" key="GridCell.Tab.1.right" timestamp="1609336195520">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609336195520" />
     <state x="1621" y="382" key="Maven.ArtifactSearchDialog" timestamp="1608911236849">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -240,6 +242,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1032" y="438" key="RollbackChangesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609146746631" />
+    <state x="789" y="359" key="SettingsEditor" timestamp="1609323747248">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="789" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1609323747248" />
     <state x="1132" y="643" key="VCS.ChangelistChooser" timestamp="1609146799802">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -252,18 +258,18 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1075" y="505" key="chooseDestDirectoryDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609081678837" />
-    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609172895402">
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609335731766">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609172895402" />
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609335731766" />
     <state x="1739" y="477" width="667" height="486" key="find.popup" timestamp="1608741809404">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1739" y="477" width="667" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1608741809404" />
-    <state x="1639" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1608741832222">
+    <state x="1639" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1609323735378">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1639" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1608741832222" />
+    <state x="1639" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1609323735378" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,6 +288,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/observer/builtin/display/StatisticsDisplay.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/composite/MenuDemo.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
