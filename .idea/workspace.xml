@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e43f8bd4-0936-43a0-95fa-b82e6bfbd41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/MenuDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/client/Waitress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/component/MenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/composites/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/defintion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/general-composite-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/leaf/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/menucomponent-composite-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/client/GumballStateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/context/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/defintion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/gum-state-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/impl/HasNoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/impl/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/impl/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/impl/SoldState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="f35aa123-a57c-489a-b75c-43b8f5d4cac1" name="NonoChangelist" comment="" />
@@ -50,30 +51,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/command/command" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/composite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/state" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/composite" />
-      <recent name="$PROJECT_DIR$/src/main/java/iterator" />
-      <recent name="$PROJECT_DIR$/src/main/java/template" />
-      <recent name="$PROJECT_DIR$/src/main/java/facade" />
-      <recent name="$PROJECT_DIR$/src/main/java/adapter" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="iterator.aggregate.impl" />
-      <recent name="template" />
-      <recent name="command.commands.impl" />
-      <recent name="command.reveiver" />
-      <recent name="strategy.client.impl" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="singelton.enums" />
       <recent name="strategy.behavior.impl" />
@@ -81,8 +65,25 @@
       <recent name="factory.abstractfactory.model" />
       <recent name="factory.abstractfactory.creator.impl" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/state" />
+      <recent name="$PROJECT_DIR$/src/main/java/composite" />
+      <recent name="$PROJECT_DIR$/src/main/java/iterator" />
+      <recent name="$PROJECT_DIR$/src/main/java/template" />
+      <recent name="$PROJECT_DIR$/src/main/java/facade" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="state.states.impl" />
+      <recent name="iterator.aggregate.impl" />
+      <recent name="template" />
+      <recent name="command.commands.impl" />
+      <recent name="command.reveiver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/observer/custom" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MenuDemo">
+  <component name="RunManager" selected="Application.GumballStateDemo">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facade.Demo" />
       <module name="design-patterns" />
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.client.Demo" />
+    <configuration name="GumballStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state.client.GumballStateDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.client.*" />
+          <option name="PATTERN" value="state.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GumballStateDemo" />
         <item itemvalue="Application.MenuDemo" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.TemplateDemo" />
         <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +175,8 @@
       <workItem from="1609143943637" duration="4735000" />
       <workItem from="1609167176026" duration="232000" />
       <workItem from="1609167483938" duration="3887000" />
-      <workItem from="1609316252340" duration="6181000" />
+      <workItem from="1609316252340" duration="6658000" />
+      <workItem from="1609504081555" duration="3252000" />
     </task>
     <servers />
   </component>
@@ -190,10 +192,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="999" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609321647868" />
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609325972885">
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1609585988925">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609325972885" />
+    <state x="1787" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609585988925" />
     <state x="1670" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609166959038">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -202,22 +204,22 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="444" height="466" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1609336081128" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609336426100">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1609588363242">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426100" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609336426097">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1609588363242" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1609588363240">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426097" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609336426096">
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1609588363240" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1609588363239">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426096" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609336426099">
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1609588363239" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1609588363241">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609336426099" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1609588363241" />
     <state width="2518" height="519" key="GridCell.Tab.1.bottom" timestamp="1609336195521">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -246,6 +248,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="789" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1609323747248" />
+    <state x="1044" y="431" key="VCS.ChangeListViewerDialog" timestamp="1609336507134">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1044" y="431" key="VCS.ChangeListViewerDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609336507134" />
     <state x="1132" y="643" key="VCS.ChangelistChooser" timestamp="1609146799802">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -258,10 +264,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1075" y="505" key="chooseDestDirectoryDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1609081678837" />
-    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609335731766">
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609585746452">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609335731766" />
+    <state x="1854" y="342" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1609585746452" />
     <state x="1739" y="477" width="667" height="486" key="find.popup" timestamp="1608741809404">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -291,7 +297,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/composite/MenuDemo.java</url>
-          <line>33</line>
+          <line>37</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
