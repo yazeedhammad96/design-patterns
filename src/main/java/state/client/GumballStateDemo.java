@@ -4,7 +4,7 @@ import state.context.GumballMachine;
 
 public class GumballStateDemo {
   public static void main(String[] args) {
-    GumballMachine gumballMachine = new GumballMachine(2);
+    GumballMachine gumballMachine = new GumballMachine("park", 2);
     gumballMachine.insertQuarter();
     gumballMachine.insertQuarter();
     gumballMachine.ejectQuarter();

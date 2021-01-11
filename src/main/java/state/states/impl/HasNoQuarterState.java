@@ -4,7 +4,8 @@ import state.context.GumballMachine;
 import state.states.State;
 
 public class HasNoQuarterState implements State {
-  GumballMachine gumballMachine;
+  private static final long serialVersionUID = 2L;
+  transient GumballMachine gumballMachine;
 
   public HasNoQuarterState(GumballMachine gumballMachine) {
     this.gumballMachine = gumballMachine;

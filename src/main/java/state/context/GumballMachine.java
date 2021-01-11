@@ -1,12 +1,16 @@
 package state.context;
 
+import proxy.server.GumballMachineRemote;
 import state.states.State;
 import state.states.impl.HasNoQuarterState;
 import state.states.impl.HasQuarterState;
 import state.states.impl.SoldOutState;
 import state.states.impl.SoldState;
 
-public class GumballMachine {
+import java.rmi.RemoteException;
+
+public class GumballMachine implements GumballMachineRemote {
+  String location;
   State hasQuarter;
   State hasNoQuarter;
   State sold;
@@ -14,7 +18,8 @@ public class GumballMachine {
   State currentState;
   int initialCount;
 
-  public GumballMachine(int initialCount) {
+  public GumballMachine(String location, int initialCount) {
+    this.location = location;
     this.hasQuarter = new HasQuarterState(this);
     this.hasNoQuarter = new HasNoQuarterState(this);
     this.sold = new SoldState(this);
@@ -61,6 +66,20 @@ public class GumballMachine {
 
   public State getHasQuarter() {
     return hasQuarter;
+  }
+
+  public String getLocation() {
+    return location;
+  }
+
+  @Override
+  public State getState() throws RemoteException {
+    return getCurrentState();
+  }
+
+  @Override
+  public int getCount() throws RemoteException {
+    return getInitialCount();
   }
 
   public State getHasNoQuarter() {
